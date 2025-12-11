@@ -12,7 +12,6 @@ public class Product {
 
     private String category;
 
-    //constructor
     public Product() {
     }
     public Product(Long id, String name, Double price, String category) {
@@ -21,8 +20,7 @@ public class Product {
         this.price = price;
         this.category = category;
     }
-    
-    // Getters and Setters
+
     public Long getId() {
         return id;
     }
